@@ -78,3 +78,9 @@ src: url('G8321-Black.eot?') format('eot'),
      url('G8321-Black.woff2') format('woff2'),
      url('G8321-Black.woff') format('woff');
 }
+
+@font-face
+{
+font-family: 'G8321GX';
+src: url('../variable_fonts/G8321GX.ttf') format('truetype');
+}

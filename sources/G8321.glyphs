@@ -1,7 +1,7 @@
 {
 .appVersion = "1348";
 DisplayStrings = (
-"ABCDEFGHIJKLMN\012OPQRSTUVWXYZ\012abcdefghijklmn\012opqrstuvwxyz.,-\0120123456789/two.001/three.001/six.001/eight.001/upBlackTriangle/rightBlackTriangle/downBlackTriangle/leftBlackTriangle"
+"ABCDEFGHIJKLMN\012OPQRSTUVWXYZ\012abcdefghijklmn\012opqrstuvwxyz.,-\0120123456789/two.001/three.001/six.001 8/upBlackTriangle/rightBlackTriangle/downBlackTriangle/leftBlackTriangle"
 );
 copyright = "Copyright © 2020 by Coji Morishita. All rights reserved.";
 customParameters = (

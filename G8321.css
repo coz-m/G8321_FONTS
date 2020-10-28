@@ -1,0 +1,126 @@
+/* BODY ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+html
+{
+font-size: 2vw;
+}
+
+body
+{
+color: #666;
+font-family: 'G8321';
+margin: 0 20% 2rem 20%;
+width: 60%;
+overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar
+{
+display:none;
+}
+
+/* LOGO ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+#logo
+{
+background-color: #666;
+color: #FFF;
+font-weight: 900;
+margin-bottom: 2rem;
+text-align: center;
+}
+
+#logo-G
+{
+font-size: 20rem;
+font-size: 16rem;
+line-height: 14.5rem;
+line-height: 12.2rem;
+}
+
+#logo-8321
+{
+font-size: 6rem;
+font-size: 4.6rem;
+line-height: 9.6rem;
+line-height: 7.2rem;
+}
+
+#logo-sub
+{
+font-size: 2.6rem;
+font-weight: 900;
+line-height: 2.8rem;
+text-align: center;
+}
+
+/* CONTENTS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+div.down
+{
+font-size: 3rem;
+font-weight: 900;
+margin: 4rem 0 4rem 0;
+text-align: center;
+}
+
+div.contents
+{
+font-weight: 500;
+text-align: center;
+}
+
+/* H :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+h1
+{
+font-size: 1.6rem;
+font-weight: 900;
+text-align: center;
+}
+
+/* VARIABLE ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+div.variable
+{
+animation: weight 2s infinite alternate;
+font-family: 'G8321GX';
+font-size: 8rem;
+font-variation-settings: 'wght' 900;
+letter-spacing: -0.2rem;
+margin: -1rem 0 0.6rem 0;
+}
+
+@keyframes weight
+{
+0%
+{
+color: #999;
+font-variation-settings: 'wght' 900;
+}
+100%
+{
+color: #666;
+font-variation-settings: 'wght' 80;
+}
+}
+
+/* RESPONSIVE 479 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+@media screen and (max-width: 479px)
+{
+
+html
+{
+font-size: 4vw;
+}
+
+body
+{
+margin: 0 0 0 0;
+width: 100%;
+}
+
+}
