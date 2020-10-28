@@ -2,7 +2,7 @@
 
 html
 {
-font-size: 2vw;
+font-size: 1.6vw;
 -webkit-text-size-adjust: 100%;
 }
 
@@ -243,9 +243,9 @@ margin: 5.6rem 0 5.8rem 0;
 #copy
 {
 line-height: 0;
-font-size: 0.6rem;
+font-size: 0.7rem;
 font-weight: 600;
-margin-bottom: 2rem;
+margin-bottom: 2.4rem;
 text-align: center;
 }
 
