@@ -244,11 +244,21 @@ margin: 5.6rem 0 5.8rem 0;
 
 #copy
 {
-line-height: 0;
+line-height: 1.2rem;
 font-size: 0.7rem;
 font-weight: 600;
 margin-bottom: 2.4rem;
 text-align: center;
+}
+
+span.uf::before
+{
+content: "@";
+}
+
+span.dm::before
+{
+content: ".";
 }
 
 /* RESPONSIVE 479 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -275,7 +285,7 @@ width: 100%;
 
 div.glyphs
 {
-font-size: 2.2rem;
+font-size: 1.8rem;
 line-height: 3.0rem;
 margin: 3.2rem 0 2.4rem 0;
 }
